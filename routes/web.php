@@ -28,3 +28,4 @@ Route::get('sua/{id}',['as'=>'sua','uses'=>'mycontroller@getsua']);
 Route::post('sua/{id}',['as'=>'sua','uses'=>'mycontroller@postsua']);
 // chi tiet user
 Route::get('chitiet/{id}',['as'=>'chitiet','uses'=>'mycontroller@getchitiet']);
+//=====================================End=============================
